@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+body{
+    background-color:rgb(140, 87, 161);
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+         font-family: 'ubuntu',sans-serif;
+    }
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        
+        height: 60px;
+        background-color: black;
+        color: blanchedalmond;
+        
+
+    }
+
+    nav ul li{
+        padding: 0 125px;
+        
+    }
+    nav ul h6{
+        margin-left: 45px;}
+    .brand img{
+        width: 70px;
+        position: absolute;
+        left: 113px;
+    }
+    .brand{
+        display: flex;
+        /* justify-content:space-around; */
+        align-items: center;
+        font-weight: bolder;
+        font-size:medium;
+    }
+        .container{
+        min-height: 65vh;
+        background-color: black;
+        color: white;
+        font-family: 'Varela Round',sans-serif;
+        margin: 23px auto;
+        width: 70%;
+        border-radius: 12px;
+        padding: 34px;
+        background-image: url(bg.jpg)
+    }
+
+    .bottom{
+        position: sticky;
+        height: 120px;
+        background-color:black ;
+        color: white;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        
+    }
+    .songinfo{
+        position: absolute;
+        left: 177px;
+        border-bottom: 5px;
+        border-radius: 10px;
+        font-family: 'Varela Round',sans-serif;
+
+
+    }
+    .songinfo img{
+        opacity: 0;
+        transition: opacity 1s ease-in;
+    }
+    .songinfo h5{
+        float:right ;
+        margin-top: 8%;
+        
+        
+    }
+    .icons{
+        margin-top: 15px;
+    }
+    #myprogressbar{
+        width: 80vw;
+        cursor: pointer;
+
+    }
+
+    .songitems{
+        height: 50px;
+        display: flex;
+        background-color: rgb(172, 98, 175);
+        width: 50%;
+        color: black;
+        justify-content:space-between;
+        align-items: center;
+        border-radius: 35px;
+        margin-block-end: 2%;
+        
+       
+                
+    }
+    .songitems img{
+        margin:0 20px ;
+        border-radius: 34px ;
+        width: 50px;
+       
+        
+    }
+    
+    .timestamp{
+        margin:0 23px ;
+    }
+    .songitemscontainer{
+        margin-top: 4%;
+       
+     }
+
+   .last{
+    margin-top: 2%;
+    display: flex;
+    height: 60px;
+    background-color:black ;
+    color: white;
+    justify-content:space-around;
+    align-items: center;
+    
+    }
+    
+   
+
+   
